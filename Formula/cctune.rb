@@ -1,15 +1,15 @@
 class Cctune < Formula
   desc "Control Apple Music from the terminal and from Claude Code: commands, an MCP server and a live status line"
   homepage "https://github.com/pcangemi/cctune"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/pcangemi/cctune/releases/download/v0.1.0/cctune-aarch64-apple-darwin.tar.xz"
-      sha256 "164265df63b1bcdc59e2b230a40ee60ace8035148c8b153a9a947ea0694363b1"
+      url "https://github.com/pcangemi/cctune/releases/download/v0.1.1/cctune-aarch64-apple-darwin.tar.xz"
+      sha256 "74fa785c0054d85a7d29f2b6c138121f308ad4fa2d413995d5eeb5f517ad3afb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pcangemi/cctune/releases/download/v0.1.0/cctune-x86_64-apple-darwin.tar.xz"
-      sha256 "45cf8b7a305f5ddb5fcd9e27ffcdf3bebffc9d89e929c4a9bb3a1d2b93ecd052"
+      url "https://github.com/pcangemi/cctune/releases/download/v0.1.1/cctune-x86_64-apple-darwin.tar.xz"
+      sha256 "1409be8ea7c9ba2af25836e2c2b27357b62bfff1ced4821db3ca592c21167613"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
